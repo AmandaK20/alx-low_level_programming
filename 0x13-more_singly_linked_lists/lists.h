@@ -1,14 +1,13 @@
 #ifndef LISTS_H
 #define LISTS_H
-
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
  * struct listint_s - defines a physically grouped linked list
- * @next: function that points next node
+ * @next: function that points to next node
  * @n: is the integer
  */
+
 typedef struct listint_s
 {
 int n;
