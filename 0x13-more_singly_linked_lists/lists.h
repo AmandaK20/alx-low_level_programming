@@ -4,17 +4,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-<<<<<<< HEAD
-/**
- * struct listint_s - declaration that defines a physically grouped linked list
- * @next: is a function that points next node
- * @n: is an integer
-=======
 /** 
  * struct listint_s - declaration that defines a physically grouped linked list 
  * @next: function that points next node
  * @n: is the integer
->>>>>>> 995a31938df86ff995ce628caeb5e520f60a791c
  */
 typedef struct listint_s
 {
