@@ -4,8 +4,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/** 
- * struct listint_s - declaration that defines a physically grouped linked list 
+/**
+ * struct listint_s - defines a physically grouped linked list
  * @next: function that points next node
  * @n: is the integer
  */
