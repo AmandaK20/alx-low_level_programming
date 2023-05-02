@@ -5,9 +5,9 @@
 #include <stdlib.h>
 
 /**
- * struct listint_s - singly linked list
- * @n: integer
- * @next: points next node
+ * struct listint_s - declaration that defines a physically grouped linked list
+ * @next: is a function that points next node
+ * @n: is an integer
  */
 typedef struct listint_s
 {
