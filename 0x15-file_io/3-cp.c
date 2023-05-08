@@ -7,7 +7,7 @@ void close_file(int fd);
 
 /**
  * create_buffer - Creates a buffer of size 1024 bytes
- * @file: The file that the buffer is storing chars for
+ * @file: The file name
  * Return: Pointer to the new buffer
  */
 
@@ -25,7 +25,7 @@ return (buffer);
 }
 
 /**
- * close_file - Closes a chosen file descriptor
+ * close_fd - Closes a chosen file descriptor
  * @fd: The file descriptor to be closed
  */
 void close_file(int fd)
@@ -44,10 +44,6 @@ exit(100);
  * @argc: The number of command line arguments
  * @argv: An array of pointers to the arguments
  * Return: 0 on success
- * Description: If the argument count is incorrect - exit code 97
- * If file_from does not exist or cannot be read - exit code 98
- * If file_to cannot be created or written to - exit code 99
- * If file_to or file_from cannot be closed - exit code 100
  */
 int main(int argc, char *argv[])
 {
